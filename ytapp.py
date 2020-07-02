@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-SAVE_PATH = 'D:/downloads'
+SAVE_PATH = input('Enter the destination directory')
 
 link = input("   Enter video's link ...\n   ")
 try:
