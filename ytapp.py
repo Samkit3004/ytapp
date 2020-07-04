@@ -20,6 +20,8 @@ except:
     exit('Exiting app ...')
 try:
     download_stream = chosen_stream[0].download(SAVE_PATH)
+    print('Video is downloaded')
+    print('Saved in',SAVE_PATH)
 except:
     print('Enter the destination directory in proper format.')
     exit('Exiting app ...')
