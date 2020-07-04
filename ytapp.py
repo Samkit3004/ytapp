@@ -10,8 +10,8 @@ except:
     print('     Check if your link is valid')
     exit('     Exiting app ...')
 
-res = input('   Choose the number of the resolution you like!\n   0: 360p\n   1: 720p\n   2: 1080p\n   ')
-options = [ '360p', '720p', '1080p' ]
+res = input('   Choose the number of the resolution you like!\n   0: 360p\n   1: 480p\n   2: 720p\n 3:1080\n  ')
+options = [ '360p', '480p', '720p', '1080p' ]
 
 try:
     chosen_stream = yt.streams.filter(file_extension = 'mp4', resolution = options[int(res)])
